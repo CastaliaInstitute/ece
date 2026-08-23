@@ -29,6 +29,9 @@ h3 { font-size: 1.65rem; }
 .actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 28px; }
 .button { border: 1px solid var(--green); border-radius: 999px; padding: 12px 18px; text-decoration: none; color: var(--green); font: 700 .92rem system-ui, sans-serif; }
 .button.primary { background: var(--green); color: #fffaf0; }
+.family-image { margin: 42px 0 0; max-width: 760px; }
+.family-image img { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; border-radius: 18px; border: 1px solid var(--line); }
+.family-image figcaption { margin-top: 10px; color: var(--muted); font: .9rem system-ui, sans-serif; }
 .split { border-top: 1px solid var(--line); display: grid; grid-template-columns: .9fr 1.1fr; gap: 80px; }
 .prose { max-width: 610px; color: var(--muted); font-size: 1.2rem; }
 .personal-note { padding-top: .5rem; }
